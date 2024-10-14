@@ -111,7 +111,7 @@ html {
 
   header .content-wrapper {
     width: 100%;
-    justify-space: between display: flex;
+    justify-items: between display flex;
     justify-content: center;
     align-items: center;
 
@@ -415,8 +415,9 @@ html {
     }
 
     footer .contact {
-      margin-bottom:
+      margin-bottom: center;
     }
+    
 
     footer social-icons {
       display: flex
@@ -427,3 +428,4 @@ html {
 
     }
   }
+}
